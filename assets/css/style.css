@@ -1581,7 +1581,7 @@ blockquote::before{
 }
 
 .section.section-padding {
-    padding: 110px 0 80px;
+    padding: 110px 0 0px;
 }
 .section.section-lg{
   padding: 110px 0 200px;
@@ -6429,7 +6429,7 @@ td.remove {
 .banner-2.sigma_banner .sigma_banner-slider-inner {
   overflow: hidden;
   position: relative;
-  padding: 350px 0 300px;
+  padding: 280px 0 200px;
 }
 
 .banner-2.sigma_banner .highlight-text{
@@ -10051,4 +10051,88 @@ small {
 
 .sigma_top.style-5:hover:before{
   animation-play-state: paused;
+}
+
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:40px;
+	background-color:#f9b021;
+	color:#662f27;
+	border-radius:45px;
+	text-align:center;
+  font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.float1{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:100px;
+	right:40px;
+	background-color:#f9b021;
+	color:#662f27;
+	border-radius:45px;
+	text-align:center;
+  font-size:25px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+}
+
+.my-float1{
+	margin-top:20px;
+}
+
+.float2{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:163px;
+	right:40px;
+	background-color:#f9b021;
+	color:#662f27;
+	border-radius:50px;
+	text-align:center;
+  font-size:25px;
+	/* box-shadow: 2px 2px 2px #999; */
+  z-index:100;
+}
+
+.my-float2{
+	margin-top:10px;
+}
+
+.social_footer_ul { 
+	display:table; 
+	margin:4px auto 0 auto; 
+	list-style-type:none;
+	padding: 0;	
+	}
+.social_footer_ul li { 
+	padding-left:15px; 
+	padding-top:5px; 
+	float:left; 
+	}
+.social_footer_ul li a { 
+	color:#CCC; 
+	border:2px solid #CCC; 
+	padding:8px;
+	border-radius:50%;
+	}
+.social_footer_ul li i {  
+	width:15px; 
+	height:15px; 
+	text-align:center;
+	}
+.social_footer_ul li a:hover {
+	color: #4eae3a; 
+	border:2px solid #4eae3a; 
 }
